@@ -35,7 +35,7 @@
 .mobile-nav__lists {
   margin-top: 3rem;
 }
-.mobile-nav__lists-center {
+.mobile-nav__lists--center {
   list-style-type: none;
   text-align: center;
   font-size: 1.875rem;
@@ -64,7 +64,7 @@
   gap: 1rem;
   margin-right: 1rem;
 }
-.web-nav__links {
+.web-navbar__links {
   text-decoration: none;
   text-align: center;
   font-size: 1.875rem;
@@ -121,7 +121,7 @@
   padding-bottom: 1rem;
   gap: 2rem;
 }
-.card {
+.card-wrapper {
   border: 1px solid #e8e8e8;
   /* padding: 1rem; */
 }
@@ -146,7 +146,7 @@
   letter-spacing: 0.1px;
   color: #252b42;
 }
-.card__desc {
+.card__description {
   padding: 0.5rem;
   font-weight: 500;
   font-size: 14px;
@@ -233,7 +233,7 @@
   justify-items: center;
   place-content: center;
 }
-.form-content__input {
+.form-content__input .from-content__section {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -314,7 +314,7 @@
   display: grid;
   gap: 1.5rem;
 }
-.footer__container {
+.footer__lists {
   display: grid;
   gap: 0.5rem;
 }
@@ -391,7 +391,7 @@
   letter-spacing: 0.2px;
   font-family: 'Montserrat';
 }
-.paragraph-experts {
+.title {
   font-weight: 200;
   font-size: 20px;
   text-align: center;
@@ -436,6 +436,9 @@
   background-color: #f3f3f3;
 }
 .image-content {
+  position: relative;
+}
+.image-content__images {
   position: relative;
 }
 .image-content__cover {
@@ -494,7 +497,7 @@
     letter-spacing: 0.2px;
     color: #252b42;
   }
-  .paragraph-experts {
+  .title {
     align-items: center;
     padding-left: 45px;
     width: 500px;
@@ -526,7 +529,7 @@
   .img-bg {
     height: 382px;
   }
-  .card__desc--wole {
+  .card__descriptionription--wole {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
