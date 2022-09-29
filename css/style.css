@@ -121,7 +121,7 @@
   padding-bottom: 1rem;
   gap: 2rem;
 }
-.card-wrapper {
+.card {
   border: 1px solid #e8e8e8;
   /* padding: 1rem; */
 }
@@ -391,7 +391,7 @@
   letter-spacing: 0.2px;
   font-family: 'Montserrat';
 }
-.title {
+.experts-conatainer__subtitle {
   font-weight: 200;
   font-size: 20px;
   text-align: center;
@@ -497,7 +497,7 @@
     letter-spacing: 0.2px;
     color: #252b42;
   }
-  .title {
+  .experts-conatainer__subtitle {
     align-items: center;
     padding-left: 45px;
     width: 500px;
