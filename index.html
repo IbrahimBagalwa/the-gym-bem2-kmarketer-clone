@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="mobile-nav__lists">
-        <ul class="mobile-nav__lists--center">
+        <ul class="mobile-nav__lists mobile-nav__lists--center">
           <li>Home</li>
           <li>Product</li>
           <li>Pricing</li>
@@ -43,7 +43,7 @@
         <img class="p-2" src="./asserts/search.svg" alt="Search" />
         <img src="./asserts/cart.svg" alt="cart" />
       </div>
-      <div class="web-nav__menu">
+      <div class="web-navbar__menu">
         <img src="./asserts/menu.svg" alt="menu" />
       </div>
     </div>
@@ -53,7 +53,7 @@
       <h2 class="experts-container__title">
         Experts are here solve your business problem.
       </h2>
-      <h4 class="experts-conatainer__subtitle">
+      <h4 class="experts-container__subtitle">
         We know how large objects will act, but things on a small scale just do
         not act that way.
       </h4>
@@ -284,12 +284,12 @@
       <!-- card place -->
     </div>
     <div class="form">
-      <div class="from__header">
+      <div class="form__header">
         <p class="form__text">Contact Us</p>
         <h2 class="form__title">Make an Appointment</h2>
       </div>
       <div class="form-content">
-        <div class="from-content__inputs">
+        <div class="form-content__inputs">
           <input
             type="text"
             placeholder="Full Name"
@@ -301,15 +301,11 @@
             class="form-content__input"
           />
         </div>
-        <div class="from-content__sections">
-          <select disabled class="form-content__section">
+        <div class="form-content__inputs">
+          <select disabled class="form-content__input">
             <option selected>please select</option>
           </select>
-          <select
-            disabled
-            id="countries_disabled"
-            class="form-content__section"
-          >
+          <select disabled id="countries_disabled" class="form-content__input">
             <option>4:00 Available</option>
           </select>
         </div>
@@ -384,7 +380,8 @@
     </div>
     <div class="make-designer">
       <h6 class="make-designer__text">
-        Made With Love By <br class="make-designer__text--desp" />
+        Made With Love By
+        <br class="make-designer__text make-designer__text--desp" />
         Figmaland All Right Reserved
       </h6>
     </div>

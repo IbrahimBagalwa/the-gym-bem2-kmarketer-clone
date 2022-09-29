@@ -72,7 +72,7 @@
   line-height: 45px;
   letter-spacing: 0.2px;
 }
-.web-nav__menu {
+.web-navbar__menu {
   display: flex;
   justify-content: flex-end;
   grid-column: span 1 / span 1;
@@ -123,11 +123,9 @@
 }
 .card {
   border: 1px solid #e8e8e8;
-  /* padding: 1rem; */
 }
 .card--profile {
   border: none;
-  /* box-shadow: 2px 2px #e8e8e8; */
 }
 .card--white {
   background-color: white;
@@ -233,7 +231,7 @@
   justify-items: center;
   place-content: center;
 }
-.form-content__input .from-content__section {
+.form-content__input {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -391,7 +389,7 @@
   letter-spacing: 0.2px;
   font-family: 'Montserrat';
 }
-.experts-conatainer__subtitle {
+.experts-container__subtitle {
   font-weight: 200;
   font-size: 20px;
   text-align: center;
@@ -497,7 +495,7 @@
     letter-spacing: 0.2px;
     color: #252b42;
   }
-  .experts-conatainer__subtitle {
+  .experts-container__subtitle {
     align-items: center;
     padding-left: 45px;
     width: 500px;
@@ -542,7 +540,7 @@
     padding-right: 8rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .from-content__inputs {
+  .form-content__inputs {
     display: flex;
     gap: 2rem;
     width: 100%;

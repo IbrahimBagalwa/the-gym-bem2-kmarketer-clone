@@ -7,13 +7,15 @@ we try to implement the design of Kmarketer, using only HTML and vanilla CSS, st
 
 ## Content
 
-- [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [My process](#my-process)
-- [Built with](#built-with)
-- [Author](#author)
-- [Contact Us](#connect-us)
+- [the-gym-bem2-kmarketer-clone](#the-gym-bem2-kmarketer-clone)
+  - [Welcome! 👋](#welcome-)
+  - [Content](#content)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+  - [Author](#author)
+  - [Connect Us:](#connect-us)
 
 ### The challenge
 
@@ -28,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Kmarketer - Homepage]()
+![Kmarketer - Homepage](./asserts/kmarketer.PNG)
 
 ### Links
 
