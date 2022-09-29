@@ -22,8 +22,8 @@
           <img src="./asserts/menu.svg" alt="menu" />
         </div>
       </div>
-      <div class="mobile-lists">
-        <ul class="mobile-lists__center">
+      <div class="mobile-nav__lists">
+        <ul class="mobile-nav__lists-center">
           <li>Home</li>
           <li>Product</li>
           <li>Pricing</li>
@@ -36,10 +36,10 @@
     <div class="web-navbar">
       <div class="site-logo">KMarketer</div>
       <div class="web-navbar__lists">
-        <a href="#" class="web_nav__links">Home</a>
-        <a href="#" class="web_nav__links">Product</a>
-        <a href="#" class="web_nav__links">Pricing</a>
-        <a href="#" class="web_nav__links">Contact</a>
+        <a href="#" class="web-nav__links">Home</a>
+        <a href="#" class="web-nav__links">Product</a>
+        <a href="#" class="web-nav__links">Pricing</a>
+        <a href="#" class="web-nav__links">Contact</a>
         <img class="p-2" src="./asserts/search.svg" alt="Search" />
         <img src="./asserts/cart.svg" alt="cart" />
       </div>
@@ -53,7 +53,7 @@
       <h2 class="experts-container__title">
         Experts are here solve your business problem.
       </h2>
-      <h4 class="paragraph">
+      <h4 class="paragraph-experts">
         We know how large objects will act, but things on a small scale just do
         not act that way.
       </h4>
@@ -65,9 +65,9 @@
     <!-- end export content -->
     <!-- choose -->
     <div class="choose-container">
-      <div class="choose-content">
-        <h2 class="text-choose">WHY CHOOSE US</h2>
-        <p class="text-paragraph-choose">
+      <div class="choose-container__content">
+        <h2 class="choose-container__text-choose">WHY CHOOSE US</h2>
+        <p class="choose-container__desc">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
@@ -81,7 +81,7 @@
           <img src="./asserts/bag.svg" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">Business Growing</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
@@ -91,7 +91,7 @@
           <img src="./asserts/web.svg" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">Web developer</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
@@ -101,7 +101,7 @@
           <img src="./asserts/bus.svg" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">Business Growing</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
@@ -111,7 +111,7 @@
           <img src="./asserts/pers.png" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">Web developer</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
@@ -121,7 +121,7 @@
           <img src="./asserts/dig.svg" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">Digital Marketing</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
@@ -131,42 +131,46 @@
           <img src="./asserts/nat.svg" width="50px" height="50px" alt="" />
           <h5 class="card__img-header">National top 50 firms</h5>
         </div>
-        <p class="card__paragraph">
+        <p class="card__desc">
           the quick fox jumps over the lazy dog the quick fox jumps over the
           lazy dog
         </p>
       </div>
     </div>
     <!-- card end -->
-    <div class="busness">
+    <div class="container">
       <div class="choose-container">
-        <div class="choose-content">
-          <h2 class="text-choose text-choose--bussness">
+        <div class="choose-container__content">
+          <h2
+            class="choose-container__text-choose choose-container__text-choose--bussness"
+          >
             We take care customers our all expert here.
           </h2>
-          <p class="text-paragraph-choose">
+          <p class="choose-container__desc">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics
           </p>
         </div>
       </div>
       <!-- img -->
-      <div class="img-over">
-        <div class="img-over">
-          <img class="img-over__content" src="./asserts/cover.png" alt="" />
+      <div class="image-content">
+        <div class="image-content">
+          <img class="image-content__cover" src="./asserts/cover.png" alt="" />
           <img class="img-btn" src="./asserts/btn.svg" alt="" />
         </div>
         <div class="img-bg"></div>
       </div>
       <!-- end img -->
       <!-- start second card -->
-      <div>
+      <div class="wrapper">
         <div class="choose-container">
-          <div class="choose-content">
-            <h2 class="text-choose text-choose--bussness">
+          <div class="choose-container__content">
+            <h2
+              class="choose-container__text-choose choose-container__text-choose--bussness"
+            >
               We take care customers our all expert here.
             </h2>
-            <p class="text-paragraph-choose">
+            <p class="choose-container__desc">
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics
             </p>
@@ -175,35 +179,35 @@
         <div class="card-container">
           <div class="card card--white">
             <img src="./asserts/star.PNG" alt="" />
-            <p class="card__paragraph card__paragraph--wole">
+            <p class="card__desc card__desc--wole">
               Slate helps you see how many more days you need to work to reach
               your financial goal
             </p>
-            <div class="card__img-container flex gap-2 py-2">
+            <div class="card__img-container flex">
               <img src="./asserts/Ellipse 2.png" alt="Elipse" />
               <div>
                 <p class="card-name">Regina Miles</p>
-                <p class="card-name--profession">Designer</p>
+                <p class="card-desc">Designer</p>
               </div>
             </div>
           </div>
           <div class="card card--white">
             <img src="./asserts/star.PNG" alt="" />
-            <p class="card__paragraph card__paragraph--wole">
+            <p class="card__desc card__desc--wole">
               Slate helps you see how many more days you need to work to reach
               your financial goal
             </p>
-            <div class="card__img-container flex gap-2 py-2">
+            <div class="card__img-container">
               <img src="./asserts/Ellipse 2 (1).png" alt="Elipse" />
               <div>
                 <p class="card-name">Regina Miles</p>
-                <p class="card-name--profession">Designer</p>
+                <p class="card-desc">Designer</p>
               </div>
             </div>
           </div>
           <div class="card card--white">
             <img src="./asserts/star.PNG" alt="" />
-            <p class="card__paragraph card__paragraph--wole">
+            <p class="card__desc card__desc--wole">
               Slate helps you see how many more days you need to work to reach
               your financial goal
             </p>
@@ -211,7 +215,7 @@
               <img src="./asserts/Ellipse 2 (2).png" alt="Elipse" />
               <div>
                 <p class="card-name">Regina Miles</p>
-                <p class="card-name--profession">Designer</p>
+                <p class="card-desc">Designer</p>
               </div>
             </div>
           </div>
@@ -219,18 +223,22 @@
       </div>
       <!-- end second card -->
     </div>
-    <div class="">
+    <div class="wrapper">
       <div class="choose-container">
-        <div class="choose-content">
-          <h2 class="text-choose text-choose--meet">Meet Our Team.</h2>
-          <p class="text-paragraph-choose">
+        <div class="choose-container__content">
+          <h2
+            class="choose-container__text-choose choose-container__text-choose--meet"
+          >
+            Meet Our Team.
+          </h2>
+          <p class="choose-container__desc">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics
           </p>
         </div>
       </div>
       <div class="card-container">
-        <div class="card card--profile------">
+        <div class="card">
           <img class="card__img" src="./asserts/per.png" alt="" />
           <div class="card-content">
             <div class="card-content__profile">
@@ -244,7 +252,7 @@
             </div>
           </div>
         </div>
-        <div class="card card--profile------">
+        <div class="card">
           <img class="card__img" src="./asserts/per1.png" alt="" />
           <div class="card-content">
             <div class="card-content__profile">
@@ -258,7 +266,7 @@
             </div>
           </div>
         </div>
-        <div class="card card--profile------">
+        <div class="card">
           <img class="card__img" src="./asserts/per.png" alt="" />
           <div class="card-content">
             <div class="card-content__profile">
@@ -281,7 +289,7 @@
         <h2 class="form__title">Make an Appointment</h2>
       </div>
       <div class="form-content">
-        <div class="from-content-inputs">
+        <div class="from-content__inputs">
           <input
             type="text"
             placeholder="Full Name"
@@ -293,7 +301,7 @@
             class="form-content__input"
           />
         </div>
-        <div class="from-content-inputs">
+        <div class="from-content__inputs">
           <select disabled class="form-content__input">
             <option selected>please select</option>
           </select>
@@ -312,15 +320,13 @@
     </div>
 
     <div class="consulting">
-      <div class="consulting-content">
-        <h2 class="consulting-content__text">
-          Consulting Agency For Your Business
-        </h2>
-        <p class="consulting-content__subtitle">
+      <div class="consulting__content">
+        <h2 class="consulting__text">Consulting Agency For Your Business</h2>
+        <p class="consulting__subtitle">
           the quick fox jumps over the lazy dog
         </p>
       </div>
-      <button class="consulting-content__btn">Contact Us</button>
+      <button class="consulting__btn">Contact Us</button>
     </div>
     <!-- footer -->
     <div class="footer-content">
@@ -333,48 +339,48 @@
           <img src="./asserts/yu-f.svg" width="20px" height="20px" alt="" />
         </div>
       </div>
-      <div class="footer-info">
-        <div class="footer-info__container">
-          <h5 class="footer-info__title">Company Info</h5>
-          <a href="#" class="footer-info__text">About</a>
-          <a href="#" class="footer-info__text">Care</a>
-          <a href="#" class="footer-info__text">We are hiring</a>
-          <a href="#" class="footer-info__text">Blog</a>
+      <div class="footer">
+        <div class="footer__container">
+          <h5 class="footer__title">Company Info</h5>
+          <a href="#" class="footer__text">About</a>
+          <a href="#" class="footer__text">Care</a>
+          <a href="#" class="footer__text">We are hiring</a>
+          <a href="#" class="footer__text">Blog</a>
         </div>
-        <div class="footer-info__container">
-          <h5 class="footer-info__title">Legal</h5>
-          <a href="#" class="footer-info__text">About</a>
-          <a href="#" class="footer-info__text">Care</a>
-          <a href="#" class="footer-info__text">We are hiring</a>
-          <a href="#" class="footer-info__text">Blog</a>
+        <div class="footer__container">
+          <h5 class="footer__title">Legal</h5>
+          <a href="#" class="footer__text">About</a>
+          <a href="#" class="footer__text">Care</a>
+          <a href="#" class="footer__text">We are hiring</a>
+          <a href="#" class="footer__text">Blog</a>
         </div>
-        <div class="footer-info__container">
-          <h5 class="footer-info__title">Features</h5>
-          <a href="#" class="footer-info__text">Business Marketing</a>
-          <a href="#" class="footer-info__text">User Analytic</a>
-          <a href="#" class="footer-info__text">Live Chat</a>
-          <a href="#" class="footer-info__text">Unlimited Support</a>
+        <div class="footer__container">
+          <h5 class="footer__title">Features</h5>
+          <a href="#" class="footer__text">Business Marketing</a>
+          <a href="#" class="footer__text">User Analytic</a>
+          <a href="#" class="footer__text">Live Chat</a>
+          <a href="#" class="footer__text">Unlimited Support</a>
         </div>
-        <div class="footer-info__container">
-          <h5 class="footer-info__title">Resources</h5>
-          <a href="#" class="footer-info__text">IOS & Android</a>
-          <a href="#" class="footer-info__text">Watch a Demo</a>
-          <a href="#" class="footer-info__text">Customers</a>
-          <a href="#" class="footer-info__text">API</a>
+        <div class="footer__container">
+          <h5 class="footer__title">Resources</h5>
+          <a href="#" class="footer__text">IOS & Android</a>
+          <a href="#" class="footer__text">Watch a Demo</a>
+          <a href="#" class="footer__text">Customers</a>
+          <a href="#" class="footer__text">API</a>
         </div>
         <div class="footer-suscribe">
-          <h5 class="footer-info__title">Get In Touch</h5>
+          <h5 class="footer__title">Get In Touch</h5>
           <div class="footer-suscribe__btn-container">
             <input type="text" class="footer-suscribe__input" />
             <button class="footer-suscribe__btn">Subscribe</button>
           </div>
-          <p class="footer-info__text">Lorem impsum dolor amit</p>
+          <p class="footer__text">Lorem impsum dolor amit</p>
         </div>
       </div>
     </div>
-    <div class="designer-by">
-      <h6 class="designer-by__text">
-        Made With Love By <br class="designer-by__text--desp" />
+    <div class="make-designer">
+      <h6 class="make-designer__text">
+        Made With Love By <br class="make-designer__text--desp" />
         Figmaland All Right Reserved
       </h6>
     </div>
