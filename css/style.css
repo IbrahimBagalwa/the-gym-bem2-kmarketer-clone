@@ -32,10 +32,10 @@
   font-size: 2rem;
   grid-column: span 2;
 }
-.mobile-nav__lists {
+.mobile-lists {
   margin-top: 3rem;
 }
-.mobile-nav__lists--center {
+.mobile-lists--center {
   list-style-type: none;
   text-align: center;
   font-size: 1.875rem;
@@ -64,7 +64,7 @@
   gap: 1rem;
   margin-right: 1rem;
 }
-.web-navbar__links {
+.web-navbar__link {
   text-decoration: none;
   text-align: center;
   font-size: 1.875rem;
@@ -72,7 +72,7 @@
   line-height: 45px;
   letter-spacing: 0.2px;
 }
-.web-navbar__menu {
+.web-navbar__menu-icon {
   display: flex;
   justify-content: flex-end;
   grid-column: span 1 / span 1;
@@ -185,7 +185,7 @@
   text-align: center;
   letter-spacing: 0.2px;
 }
-.card-content__fonction {
+.card-content__function {
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
@@ -286,24 +286,23 @@
   border-radius: 0.5rem;
   border: none;
 }
-.footer-content {
+.footer-container {
   background-color: #252b42;
   padding: 5rem;
   display: grid;
   gap: 2rem;
 }
-.footer-content__wrapper {
+.footer-container__wrapper {
   display: grid;
-  grid-template: 2rem;
 }
-.footer-content__text {
+.footer-container__text {
   color: white;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
 }
-.footer-content__social {
+.footer-container__social {
   display: flex;
   gap: 1rem;
 }
@@ -412,7 +411,7 @@
   align-items: center;
   border: none;
 }
-.btn--left {
+.btn--get-cot {
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
@@ -421,7 +420,7 @@
   color: #ffffff;
   background: #ffa62b;
 }
-.btn--right {
+.btn--learn-more {
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
@@ -556,17 +555,17 @@
     flex-direction: row;
     justify-content: space-around;
   }
-  .footer-content {
+  .footer-container {
     align-items: center;
   }
-  .footer-content__wrapper {
+  .footer-container__wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     border-bottom: 1px solid #bdbdbd;
   }
-  .footer-content__text {
+  .footer-container__text {
     margin-bottom: 1rem;
   }
-  .footer-content__social {
+  .footer-container__social {
     justify-content: flex-end;
     margin-bottom: 1rem;
   }
